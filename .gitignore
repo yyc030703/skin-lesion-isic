@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Data and models — too big for git
+data/
+*.zip
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# W&B local logs
+wandb/
